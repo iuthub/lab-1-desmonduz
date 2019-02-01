@@ -11,22 +11,20 @@
 0049: 
 <= Recv header, 17 bytes (0x11)
 0000: HTTP/1.1 200 OK
-<= Recv header, 22 bytes (0x16)
-0000: Accept-Ranges: bytes
 <= Recv header, 31 bytes (0x1f)
 0000: Cache-Control: max-age=604800
 <= Recv header, 40 bytes (0x28)
 0000: Content-Type: text/html; charset=UTF-8
 <= Recv header, 37 bytes (0x25)
-0000: Date: Fri, 01 Feb 2019 11:05:47 GMT
-<= Recv header, 25 bytes (0x19)
-0000: Etag: "1541025663+gzip"
+0000: Date: Fri, 01 Feb 2019 11:46:08 GMT
+<= Recv header, 31 bytes (0x1f)
+0000: Etag: "1541025663+gzip+ident"
 <= Recv header, 40 bytes (0x28)
-0000: Expires: Fri, 08 Feb 2019 11:05:47 GMT
+0000: Expires: Fri, 08 Feb 2019 11:46:08 GMT
 <= Recv header, 46 bytes (0x2e)
 0000: Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
 <= Recv header, 24 bytes (0x18)
-0000: Server: ECS (dca/5326)
+0000: Server: ECS (dca/53F8)
 <= Recv header, 23 bytes (0x17)
 0000: Vary: Accept-Encoding
 <= Recv header, 14 bytes (0xe)

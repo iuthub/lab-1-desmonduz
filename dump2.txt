@@ -11,22 +11,20 @@
 0049: 
 <= Recv header, 17 bytes (0x11)
 0000: HTTP/1.1 200 OK
-<= Recv header, 22 bytes (0x16)
-0000: Accept-Ranges: bytes
 <= Recv header, 31 bytes (0x1f)
 0000: Cache-Control: max-age=604800
 <= Recv header, 40 bytes (0x28)
 0000: Content-Type: text/html; charset=UTF-8
 <= Recv header, 37 bytes (0x25)
-0000: Date: Fri, 01 Feb 2019 11:07:58 GMT
+0000: Date: Fri, 01 Feb 2019 11:49:34 GMT
 <= Recv header, 31 bytes (0x1f)
 0000: Etag: "1541025663+gzip+ident"
 <= Recv header, 40 bytes (0x28)
-0000: Expires: Fri, 08 Feb 2019 11:07:58 GMT
+0000: Expires: Fri, 08 Feb 2019 11:49:34 GMT
 <= Recv header, 46 bytes (0x2e)
 0000: Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
 <= Recv header, 24 bytes (0x18)
-0000: Server: ECS (dca/2468)
+0000: Server: ECS (dca/2499)
 <= Recv header, 23 bytes (0x17)
 0000: Vary: Accept-Encoding
 <= Recv header, 14 bytes (0xe)
@@ -35,7 +33,7 @@
 0000: Content-Length: 1270
 <= Recv header, 2 bytes (0x2)
 0000: 
-<= Recv data, 899 bytes (0x383)
+<= Recv data, 1270 bytes (0x4f6)
 0000: <!doctype html>.<html>.<head>.    <title>Example Domain</title>.
 0040: .    <meta charset="utf-8" />.    <meta http-equiv="Content-type
 0080: " content="text/html; charset=utf-8" />.    <meta name="viewport
@@ -50,12 +48,10 @@
 02c0: th: 700px) {.        body {.            background-color: #fff;.
 0300:         }.        div {.            width: auto;.            mar
 0340: gin: 0 auto;.            border-radius: 0;.            padding: 
-0380: 1em
-<= Recv data, 371 bytes (0x173)
-0000: ;.        }.    }.    </style>    .</head>..<body>.<div>.    <h1
-0040: >Example Domain</h1>.    <p>This domain is established to be use
-0080: d for illustrative examples in documents. You may use this.    d
-00c0: omain in examples without prior coordination or asking for permi
-0100: ssion.</p>.    <p><a href="http://www.iana.org/domains/example">
-0140: More information...</a></p>.</div>.</body>.</html>.
+0380: 1em;.        }.    }.    </style>    .</head>..<body>.<div>.    
+03c0: <h1>Example Domain</h1>.    <p>This domain is established to be 
+0400: used for illustrative examples in documents. You may use this.  
+0440:   domain in examples without prior coordination or asking for pe
+0480: rmission.</p>.    <p><a href="http://www.iana.org/domains/exampl
+04c0: e">More information...</a></p>.</div>.</body>.</html>.
 == Info: Connection #0 to host example.com left intact
